@@ -14,6 +14,7 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
+    </div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
