@@ -32,7 +32,6 @@
 
 # Hooks
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
-<a href="https://github.com/LeadMonster/Library/blob/main/hooks/useFetch.js">Go to source</a>
 
 
 
@@ -53,4 +52,7 @@
     console.log(data)
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+<span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/hooks/useFetch.js">Go to source</a></span>
+(<a href="#readme-top">back to top</a>)
+</p>
