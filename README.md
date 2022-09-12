@@ -30,6 +30,7 @@
   </ol>
 </details>
 
+# Hooks
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
 
 
