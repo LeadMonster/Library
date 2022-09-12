@@ -13,7 +13,22 @@
   <p align="center">
     An awesome React JS code examples for your projects!
     <br />
+    <br />
+    <br />
     </div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Quick Menu</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Hooks</a>
+      <ul>
+        <li><a href="#useFetch-hook">useFetch hook</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
 
