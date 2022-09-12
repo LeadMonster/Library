@@ -14,3 +14,23 @@
     An awesome React JS code examples for your projects!
     <br />
     </div>
+
+## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
+
+
+| Param | Type                      | Default | Description   |
+|-------|---------------------------|---------|---------------|
+| loading  | <code>Bool</code>         | true    | Loading state |
+| error  | <code>Error Object</code> |     | Error handle  |
+| data  | <code>JSON</code>         |         | Response JSON |
+
+### Example
+   ```js
+    import useFetch from './hooks/useFetch'
+    const { loading, error, data } = useFetch('http://localhost/requestURL')
+
+    if (loading) return <p>Loading...</p>
+    if (error) return <p>Error :(</p>
+
+    console.log(data)
+   ```
