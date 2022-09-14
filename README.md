@@ -24,21 +24,19 @@
     <li>
       <a href="#hooks">Hooks</a>
       <ul>
-        <li><a href="#usefetch">useFetch hook</a></li>
+        <li><a href="#usefetch-hook--url-string---response-json">useFetch hook</a></li>
       </ul>
     </li>
     <li>
       <a href="#utils">Utils</a>
       <ul>
-        <li><a href="#strapiFormatter">Strapi Response Formatter</a></li>
+        <li><a href="#strapi-response-formatter--data-json---schema-formatted-json">Strapi Response Formatter</a></li>
       </ul>
     </li>
   </ol>
 </details>
 
 # Hooks
-usefetch safdadsdfdsfsafsddsfasdfa
-------
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
 
 
