@@ -37,7 +37,7 @@
 </details>
 
 # Hooks
-usefetch
+usefetch safdadsdfdsfsafsddsfasdfa
 ------
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
 
