@@ -24,7 +24,7 @@
     <li>
       <a href="#hooks">Hooks</a>
       <ul>
-        <li><a href="#useFetch-hook">useFetch hook</a></li>
+        <li><a href="#usefetch">useFetch hook</a></li>
       </ul>
     </li>
     <li>
@@ -37,6 +37,8 @@
 </details>
 
 # Hooks
+usefetch
+------
 ## useFetch Hook: ( URL: string ) ⇒ Response <code>JSON</code>
 
 
