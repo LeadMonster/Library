@@ -22,9 +22,15 @@
   <summary>Quick Menu</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Hooks</a>
+      <a href="#hooks">Hooks</a>
       <ul>
         <li><a href="#useFetch-hook">useFetch hook</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#utils">Utils</a>
+      <ul>
+        <li><a href="#strapiFormatter">Strapi Response Formatter</a></li>
       </ul>
     </li>
   </ol>
@@ -54,5 +60,37 @@
 
 <p align="right">
 <span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/hooks/useFetch.js">Go to source</a></span>
+(<a href="#readme-top">back to top</a>)
+</p>
+
+# Utils
+## Strapi Response Formatter: ( Data: JSON ) ⇒ Schema Formatted <code>JSON</code>
+### Methods
+
+| Method       | Params                            | Description                                                                                                                                  |
+|--------------|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| schema       |                                   | Return schema.json   <span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/hooks/useFetch.js">View example</a></span> |
+| fromSchema() | <code>Response Data (JSON)</code> | Format Strapi JSON response from schema template                                                                                             |
+| schemaURL()  | <code>UID (String)</code>         | Transform UID to fetch URL from schema.json                                                                                                  |
+
+### Usage
+
+
+   ```js
+import {strapiFormatter} from "./strapiFormatter";
+
+const useFetch = (url, formatter) => {
+    if (formatter !== undefined){ url = strapiFormatter.schemaURL(url) }
+    ...
+    const res = await fetch(url)
+    let json = await res.json()
+    if (formatter !== undefined){
+        let formatted = await strapiFormatter.fromSchema(json)
+    }
+    ...
+}
+   ```
+<p align="right">
+<span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/utils/strapiFormatter">Go to source</a></span>
 (<a href="#readme-top">back to top</a>)
 </p>

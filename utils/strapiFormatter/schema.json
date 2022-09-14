@@ -1,0 +1,39 @@
+{
+  "server": {
+    "url": "http://localhost:1337",
+    "api_route": "/api"
+  },
+  "routes": [
+    {
+      "uid": "getProducts",
+      "collection": "Product",
+      "method": "GET",
+      "path": "/products?populate=*",
+      "response": {
+        "id": "id",
+        "name": "attributes.name",
+        "price": "attributes.price",
+        "score": "attributes.score",
+        "images": {
+          "path": "attributes.images.data",
+          "response": {
+            "id" : "id",
+            "url" : "attributes.url"
+          }
+        },
+        "categories": {
+          "path": "attributes.categories.data",
+          "response": {
+            "name" : "attributes.name"
+          }
+        },
+        "products_views": {
+          "path": "attributes.products_views.data",
+          "response": {
+            "title" : "attributes.title"
+          }
+        }
+      }
+    }
+  ]
+}
