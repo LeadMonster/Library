@@ -67,11 +67,11 @@
 ## Strapi Response Formatter: ( Data: JSON ) ⇒ Schema Formatted <code>JSON</code>
 ### Methods
 
-| Method       | Params                            | Description                                                                                                                                  |
-|--------------|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| schema       |                                   | Return schema.json   <span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/hooks/useFetch.js">View example</a></span> |
-| fromSchema() | <code>Response Data (JSON)</code> | Format Strapi JSON response from schema template                                                                                             |
-| schemaURL()  | <code>UID (String)</code>         | Transform UID to fetch URL from schema.json                                                                                                  |
+| Method       | Params                            | Description                                                                                                                                                   |
+|--------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| schema       |                                   | Return schema.json   <span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/utils/strapiFormatter/schema.json/">View example</a></span> |
+| fromSchema() | <code>Response Data (JSON)</code> | Format Strapi JSON response from schema template                                                                                                              |
+| schemaURL()  | <code>UID (String)</code>         | Transform UID to fetch URL from schema.json                                                                                                                   |
 
 ### Usage
 
