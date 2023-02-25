@@ -63,6 +63,27 @@
 (<a href="#readme-top">back to top</a>)
 </p>
 
+## useInput Hook
+### Example
+   ```js
+    import useFetch from './hooks/useInput'
+    
+    function App() {
+        const username = useInput('')
+        const password = useInput('')
+        return(
+            <>
+                <input {...username} type="text" placeholder="Username"/>
+                <input {...password} type="text" placeholder="Password"/>
+            </>
+        )
+    }
+   ```
+<p align="right">
+<span align="left"><a href="https://github.com/LeadMonster/Library/blob/main/hooks/useInput.js">Go to source</a></span>
+(<a href="#readme-top">back to top</a>)
+</p>
+
 # Utils
 ## Strapi Response Formatter: ( Data: JSON ) ⇒ Schema Formatted <code>JSON</code>
 ### Methods
